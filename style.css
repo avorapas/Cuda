@@ -1,3 +1,4 @@
+
 table {
 	border: 10px solid red;
 	background-color: pink;
@@ -31,5 +32,82 @@ caption {
 	caption-side: bottom;
 	text-align: right;
 	font-weight: bold;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: Arial;
+	font-size: 22px;
+	line-height: 24px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a {
+	color: #ffffff;
+}
+
+ header{
+	background-color: #87509c;
+	}
+
+h1 {
+	font-size: 56px;
+	line-height: 58px;
+}
+
+h2 {
+	font-size: 53px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.button-work {
+	background-color: #eb7d4b;
+	padding: 10px;
+}
+
+.services {
+	background-color: #17c2a4;
+}
+
+.team {
+	background-color: #e7f1f8;
+	color: grey;
+}
+
+.skills {
+	background-color: #ffffff;
+	color: grey:
+}
+
+.portfolio {
+	background-color: #ffdd99;
+	color: grey;
+}
+
+.loadmore-button {
+	background-color: #17c2a4;
+}
+
+.feedback {
+	background-color: #d74680;
+}
+
+.messaging {
+	background-color: #3c5499;
+}
+
+.main-footer {
+	background-color: #324b8e;
 }
 

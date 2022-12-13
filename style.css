@@ -1,3 +1,28 @@
+@font-face {
+	font-family: "TitilliumWeb";
+	src: url("d:\Учеба\HTML\Cuda\TitilliumWeb-Regular.otf");
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: "TitilliumWeb", sans-serif;
+	font-size: 24px;
+	line-height: 26px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.main-logo {
+	display: block;
+	text-align: left;
+}
+
+.visually-hidden {
+	color: red;
+}
 
 table {
 	border: 10px solid red;
@@ -6,7 +31,7 @@ table {
 	font-size: 20px;
 	width: 60px;
 	height: 70px;
-
+	margin: auto;
 }
 
 td {
@@ -34,23 +59,16 @@ caption {
 	font-weight: bold;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	
-	font-family: Arial;
-	font-size: 22px;
-	line-height: 24px;
-	color: #ffffff;
-	text-align: center;
-}
 
 .site-navigation {
 	list-style: none;
+	font-size: 22px;
+	line-height: 24px;
 }
 
-.site-navigation a {
-	color: #ffffff;
+.site-navigation a:hover,
+.site-navigation a:focus {
+	background-color: #643a79;
 }
 
  header{
@@ -64,11 +82,21 @@ h1 {
 
 h2 {
 	font-size: 53px;
+	line-height: 55px;
+}
+
+h3 {
+	font-size: 32px;
+	line-height: 34px;
 }
 
 a {
 	text-decoration: none;
 	color: #ffffff;
+}
+
+.portfolio-item {
+	color: #393939;
 }
 
 .button-work {
@@ -80,19 +108,46 @@ a {
 	background-color: #17c2a4;
 }
 
+.services-list {
+	list-style: none;
+}
+
+.services-item {
+	font-size: 22px;
+	line-height: 24px;
+}
+
 .team {
 	background-color: #e7f1f8;
-	color: grey;
+	color: #3c4761;
+}
+
+.team-listing {
+	list-style: none;
+}
+
+ul {
+	list-style: none;
 }
 
 .skills {
 	background-color: #ffffff;
-	color: grey:
+	color: #3c4761;
 }
 
 .portfolio {
 	background-color: #ffdd99;
-	color: grey;
+	color: #393939;
+}
+
+.portfolio-button a {
+	color: #393939;
+	background-color: #e5c37f;
+}
+
+.portfolio-button a:hover,
+.portfolio-button a:focus {
+	background-color: #ffffff;
 }
 
 .loadmore-button {
@@ -103,11 +158,40 @@ a {
 	background-color: #d74680;
 }
 
+.hh {
+	color: #ffdd99;
+}
+
+.hr {
+	color: #30bae7;
+	font-size: 22px;
+}
 .messaging {
 	background-color: #3c5499;
+}
+
+.send-button {
+	background-color: #30bae7;
 }
 
 .main-footer {
 	background-color: #324b8e;
 }
 
+.hr-msg {
+	font-size: 22px;
+}
+
+.feedback-msg {
+	font-size: 28px;
+	font-style: italic;
+}
+
+.socials-list {
+	font-size: 32px;
+}
+
+.socials-list a:hover,
+.socials-list a:focus {
+	color: #30bae7;
+}
